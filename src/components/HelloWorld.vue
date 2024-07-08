@@ -1,6 +1,9 @@
-<script setup lang="ts">
+<script setup lang="tsx">
+import type { Position } from './data';
+
 defineProps<{
   msg: string
+  position?: Position
 }>()
 </script>
 
